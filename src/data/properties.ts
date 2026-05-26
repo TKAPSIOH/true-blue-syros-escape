@@ -10,6 +10,7 @@ export type Property = {
   amenities: { wifi: boolean; ac: boolean; parking: boolean };
   bookingUrl: string;
   images: string[];
+  description?: string;
 };
 
 // Unsplash photos — replace with real assets later.
@@ -22,12 +23,13 @@ export const properties: Property[] = [
     name: "Blue House",
     area: "Vari",
     street: "Akti Delfinion 12",
-    maxGuests: 6,
-    sizeSqm: 110,
-    bedrooms: 3,
+    maxGuests: 4,
+    sizeSqm: 75,
+    bedrooms: 2,
     bathrooms: 2,
-    amenities: { wifi: true, ac: true, parking: true },
+    amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
+    description: "A calm, light-filled home just steps from Vari beach. Blue House blends Cycladic simplicity with modern comfort — whitewashed walls, wooden shutters, and a shaded courtyard for slow mornings. The sea is your front yard.",
     images: [
       img("1613490493576-7fde63acd811"),
       img("1505691938895-1758d7feb511"),
