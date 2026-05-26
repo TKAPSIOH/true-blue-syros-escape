@@ -23,14 +23,17 @@ export const Route = createFileRoute("/listing/$propertyId")({
     if (!property) throw notFound();
     return { property };
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      { title: `${loaderData.property.name} — True Blue · Syros` },
-      { name: "description", content: `Stay at ${loaderData.property.name} in ${loaderData.property.area}, Syros. ${loaderData.property.maxGuests} guests · ${loaderData.property.sizeSqm} m².` },
-      { property: "og:title", content: `${loaderData.property.name} — True Blue · Syros` },
-      { property: "og:type", content: "website" },
-    ],
-  }),
+  head: ({ loaderData }) => {
+    const p = loaderData?.property;
+    return {
+      meta: [
+        { title: p ? `${p.name} — True Blue · Syros` : "True Blue · Syros" },
+        { name: "description", content: p ? `Stay at ${p.name} in ${p.area}, Syros. ${p.maxGuests} guests · ${p.sizeSqm} m².` : "Curated vacation homes in Syros, Greece." },
+        { property: "og:title", content: p ? `${p.name} — True Blue · Syros` : "True Blue · Syros" },
+        { property: "og:type", content: "website" },
+      ],
+    };
+  },
 });
 
 function ListingPage() {
