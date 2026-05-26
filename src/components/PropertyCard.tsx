@@ -156,6 +156,6 @@ export function PropertyCard({ property }: { property: Property }) {
           <ArrowUpRight className="h-4 w-4" strokeWidth={1.75} />
         </a>
       </div>
-    </article>
+    </Link>
   );
 }
