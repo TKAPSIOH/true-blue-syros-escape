@@ -20,9 +20,9 @@ const img = (id: string, w = 1200) =>
 export const properties: Property[] = [
   {
     id: "blue-house-vari",
-    name: "Blue House",
-    area: "Vari",
-    street: "Akti Delfinion 12",
+    name: "Alexandra Suite - White Suites",
+    area: "Ermoupoli",
+    street: "Kapodistriou 24",
     maxGuests: 4,
     sizeSqm: 75,
     bedrooms: 2,
