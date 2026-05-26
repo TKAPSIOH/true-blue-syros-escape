@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
