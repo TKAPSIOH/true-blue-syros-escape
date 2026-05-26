@@ -122,6 +122,7 @@ export function PropertyCard({ property }: { property: Property }) {
         </div>
       </Link>
 
+      <div className="flex flex-1 flex-col px-6 pb-6">
         {/* Specs */}
         <dl className="mt-5 grid grid-cols-3 divide-x divide-border/70 rounded-md border border-border/70 bg-secondary/40">
           <div className="flex flex-col items-center gap-1 px-2 py-3">
