@@ -83,7 +83,7 @@ function ListingPage() {
       <section className="relative h-[70vh] min-h-[480px] w-full overflow-hidden bg-muted">
         <div className="h-full overflow-hidden" ref={emblaRef}>
           <div className="flex h-full">
-            {property.images.map((src, i) => (
+            {property.images.map((src: string, i: number) => (
               <div
                 key={i}
                 className="relative h-full min-w-0 flex-[0_0_100%]"
