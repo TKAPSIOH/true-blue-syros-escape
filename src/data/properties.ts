@@ -10,6 +10,7 @@ export type Property = {
   amenities: { wifi: boolean; ac: boolean; parking: boolean };
   bookingUrl: string;
   images: string[];
+  description?: string;
 };
 
 // Unsplash photos — replace with real assets later.
