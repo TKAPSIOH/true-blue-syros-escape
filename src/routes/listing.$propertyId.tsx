@@ -119,7 +119,7 @@ function ListingPage() {
 
         {/* Dots */}
         <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-2">
-          {property.images.map((_, i) => (
+          {property.images.map((_img: string, i: number) => (
             <button
               key={i}
               aria-label={`Go to photo ${i + 1}`}
