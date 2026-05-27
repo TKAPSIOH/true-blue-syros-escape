@@ -13,6 +13,30 @@ export type Property = {
   description?: string;
 };
 
+import alexandra027 from "@/assets/alexandra/027.jpg";
+import alexandra028 from "@/assets/alexandra/028.jpg";
+import alexandra029 from "@/assets/alexandra/029.jpg";
+import alexandra031 from "@/assets/alexandra/031.jpg";
+import alexandra032 from "@/assets/alexandra/032.jpg";
+import alexandra037 from "@/assets/alexandra/037.jpg";
+import alexandra039 from "@/assets/alexandra/039.jpg";
+import alexandra042 from "@/assets/alexandra/042.jpg";
+import alexandra0441 from "@/assets/alexandra/0441.jpg";
+import alexandra0471 from "@/assets/alexandra/0471.jpg";
+
+const alexandraImages = [
+  alexandra027,
+  alexandra028,
+  alexandra029,
+  alexandra0441,
+  alexandra0471,
+  alexandra039,
+  alexandra042,
+  alexandra031,
+  alexandra032,
+  alexandra037,
+];
+
 // Unsplash photos — replace with real assets later.
 const img = (id: string, w = 1200) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
@@ -30,11 +54,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     description: "A calm, light-filled home just steps from Vari beach. Blue House blends Cycladic simplicity with modern comfort — whitewashed walls, wooden shutters, and a shaded courtyard for slow mornings. The sea is your front yard.",
-    images: [
-      img("1613490493576-7fde63acd811"),
-      img("1505691938895-1758d7feb511"),
-      img("1502672260266-1c1ef2d93688"),
-    ],
+    images: alexandraImages,
   },
   {
     id: "olive-retreat-finikas",
