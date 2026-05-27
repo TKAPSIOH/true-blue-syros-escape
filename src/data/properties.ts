@@ -54,11 +54,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     description: "A calm, light-filled home just steps from Vari beach. Blue House blends Cycladic simplicity with modern comfort — whitewashed walls, wooden shutters, and a shaded courtyard for slow mornings. The sea is your front yard.",
-    images: [
-      img("1613490493576-7fde63acd811"),
-      img("1505691938895-1758d7feb511"),
-      img("1502672260266-1c1ef2d93688"),
-    ],
+    images: alexandraImages,
   },
   {
     id: "olive-retreat-finikas",
