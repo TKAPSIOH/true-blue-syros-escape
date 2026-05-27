@@ -23,6 +23,16 @@ import alexandra039 from "@/assets/alexandra/039.jpg";
 import alexandra042 from "@/assets/alexandra/042.jpg";
 import alexandra0441 from "@/assets/alexandra/0441.jpg";
 import alexandra0471 from "@/assets/alexandra/0471.jpg";
+import aplotis002 from "@/assets/aplotis/002.jpg";
+import aplotis005 from "@/assets/aplotis/005.jpg";
+import aplotis010 from "@/assets/aplotis/010.jpg";
+import aplotis027 from "@/assets/aplotis/027.jpg";
+import aplotis038 from "@/assets/aplotis/038.jpg";
+import aplotis039 from "@/assets/aplotis/039.jpg";
+import aplotis067 from "@/assets/aplotis/067.jpg";
+import aplotis076 from "@/assets/aplotis/076.jpg";
+import aplotis081 from "@/assets/aplotis/081.jpg";
+import aplotis094 from "@/assets/aplotis/094.jpg";
 
 const alexandraImages = [
   alexandra027,
@@ -35,6 +45,19 @@ const alexandraImages = [
   alexandra031,
   alexandra032,
   alexandra037,
+];
+
+const aplotisImages = [
+  aplotis002,
+  aplotis005,
+  aplotis010,
+  aplotis027,
+  aplotis038,
+  aplotis039,
+  aplotis067,
+  aplotis076,
+  aplotis081,
+  aplotis094,
 ];
 
 // Unsplash photos — replace with real assets later.
@@ -58,20 +81,16 @@ export const properties: Property[] = [
   },
   {
     id: "olive-retreat-finikas",
-    name: "Olive Retreat",
-    area: "Finikas",
-    street: "Odos Eleon 4",
-    maxGuests: 4,
-    sizeSqm: 85,
-    bedrooms: 2,
+    name: "APLOTIS",
+    area: "Ermoupoli",
+    street: "Lykourgou 10",
+    maxGuests: 3,
+    sizeSqm: 45,
+    bedrooms: 1,
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.booking.com/",
-    images: [
-      img("1512917774080-9991f1c4c750"),
-      img("1501183638710-841dd1904471"),
-      img("1493809842364-78817add7ffb"),
-    ],
+    images: aplotisImages,
   },
   {
     id: "cycladic-cottage-chroussa",
