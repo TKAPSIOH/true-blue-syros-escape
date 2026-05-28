@@ -33,6 +33,21 @@ import aplotis067 from "@/assets/aplotis/067.jpg";
 import aplotis076 from "@/assets/aplotis/076.jpg";
 import aplotis081 from "@/assets/aplotis/081.jpg";
 import aplotis094 from "@/assets/aplotis/094.jpg";
+import villaLilak001 from "@/assets/villa-lilak/001.jpg";
+import villaLilak044 from "@/assets/villa-lilak/044.jpg";
+import villaLilak015 from "@/assets/villa-lilak/015.jpg";
+import villaLilak018 from "@/assets/villa-lilak/018.jpg";
+import villaLilak020 from "@/assets/villa-lilak/020.jpg";
+import villaLilak034 from "@/assets/villa-lilak/034.jpg";
+
+const villaLilakImages = [
+  villaLilak001,
+  villaLilak044,
+  villaLilak015,
+  villaLilak018,
+  villaLilak020,
+  villaLilak034,
+];
 
 const alexandraImages = [
   alexandra027,
