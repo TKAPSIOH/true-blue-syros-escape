@@ -118,11 +118,7 @@ export const properties: Property[] = [
     bathrooms: 4,
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1564540583246-934409427776"),
-      img("1600585154340-be6161a56a0c"),
-      img("1600566753190-17f0baa2a6c3"),
-    ],
+    images: villaLilakImages,
   },
   {
     id: "dimitra-suite-white-suites",
