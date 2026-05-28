@@ -39,6 +39,10 @@ import villaLilak015 from "@/assets/villa-lilak/015.jpg";
 import villaLilak018 from "@/assets/villa-lilak/018.jpg";
 import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
+import dimitra014 from "@/assets/dimitra/014.jpg";
+import dimitra077 from "@/assets/dimitra/077.jpg";
+
+const dimitraImages = [dimitra014, dimitra077];
 
 const villaLilakImages = [
   villaLilak001,
@@ -131,11 +135,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1522708323590-d24dbb6b0267"),
-      img("1560448204-e02f11c3d0e2"),
-      img("1505693416388-ac5ce068fe85"),
-    ],
+    images: dimitraImages,
   },
   {
     id: "vasiliki-suite-white-suites",
