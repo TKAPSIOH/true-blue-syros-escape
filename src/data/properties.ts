@@ -165,11 +165,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1571508601891-ca5e7a713859"),
-      img("1568084680786-a84f91d1153c"),
-      img("1540541338287-41700207dee6"),
-    ],
+    images: vasilikiImages,
   },
   {
     id: "agapi-melo-residences",
