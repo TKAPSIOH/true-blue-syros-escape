@@ -298,6 +298,7 @@ export const properties: Property[] = [
       img("1560448204-e02f11c3d0e2"),
       img("1505693416388-ac5ce068fe85"),
     ],
+    rates: { june: 220, july: 290, august: 340 },
   },
   {
     id: "elia-suite-avrofilito",
