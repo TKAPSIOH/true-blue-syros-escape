@@ -220,6 +220,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: vasilikiImages,
+    rates: { june: 120, july: 160, august: 190 },
   },
   {
     id: "agapi-melo-residences",
