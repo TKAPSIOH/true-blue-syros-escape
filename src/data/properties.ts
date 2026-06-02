@@ -41,6 +41,23 @@ import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
 import dimitra014 from "@/assets/dimitra/014.jpg";
 import dimitra077 from "@/assets/dimitra/077.jpg";
+import vasiliki051 from "@/assets/vasiliki/051.jpg";
+import vasiliki052 from "@/assets/vasiliki/052.jpg";
+import vasiliki054 from "@/assets/vasiliki/054.jpg";
+import vasiliki055 from "@/assets/vasiliki/055.jpg";
+import vasiliki057 from "@/assets/vasiliki/057.jpg";
+import vasiliki058 from "@/assets/vasiliki/058.jpg";
+import vasiliki062 from "@/assets/vasiliki/062.jpg";
+
+const vasilikiImages = [
+  vasiliki054,
+  vasiliki055,
+  vasiliki052,
+  vasiliki051,
+  vasiliki062,
+  vasiliki057,
+  vasiliki058,
+];
 
 const dimitraImages = [dimitra014, dimitra077];
 
