@@ -192,6 +192,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
     images: villaLilakImages,
+    rates: { june: 420, july: 580, august: 680 },
   },
   {
     id: "dimitra-suite-white-suites",
