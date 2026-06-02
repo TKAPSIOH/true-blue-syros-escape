@@ -290,6 +290,20 @@ function SpecCard({
   );
 }
 
+function RateCard({ month, price }: { month: string; price: number }) {
+  return (
+    <div className="flex flex-col items-start gap-1 rounded-lg border border-border/70 bg-secondary/40 px-4 py-3">
+      <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+        {month}
+      </span>
+      <span className="font-serif text-xl text-foreground">
+        €{price}
+        <span className="ml-1 text-xs text-muted-foreground">/ night</span>
+      </span>
+    </div>
+  );
+}
+
 function AmenityRow({
   icon,
   label,
