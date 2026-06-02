@@ -334,6 +334,7 @@ export const properties: Property[] = [
       img("1582268611958-ebfd161ef9cf"),
       img("1499696010180-025ef6e1a8f9"),
     ],
+    rates: { june: 110, july: 145, august: 175 },
   },
 
 ];
