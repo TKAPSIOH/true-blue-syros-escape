@@ -201,6 +201,23 @@ function ListingPage() {
                 />
               </div>
             </div>
+
+            {/* Indicative rates */}
+            {property.rates && (
+              <div className="mt-10">
+                <h2 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                  Indicative rates per night
+                </h2>
+                <div className="mt-4 grid grid-cols-3 gap-3">
+                  <RateCard month="June" price={property.rates.june} />
+                  <RateCard month="July" price={property.rates.july} />
+                  <RateCard month="August" price={property.rates.august} />
+                </div>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Prices are indicative and may vary by dates and length of stay.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Booking card */}
