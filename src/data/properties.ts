@@ -67,6 +67,15 @@ const vasilikiImages = [
 
 const dimitraImages = [dimitra014, dimitra077];
 
+const agapiImages = [
+  agapiBedroom.url,
+  agapiBedroom2.url,
+  agapiKitchen1.url,
+  agapiKitchen3.url,
+  agapiLivingRoom2.url,
+  agapiLivingRoomAtNight.url,
+];
+
 const villaLilakImages = [
   villaLilak001,
   villaLilak044,
