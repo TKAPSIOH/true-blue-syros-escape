@@ -206,6 +206,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: dimitraImages,
+    rates: { june: 160, july: 210, august: 250 },
   },
   {
     id: "vasiliki-suite-white-suites",
