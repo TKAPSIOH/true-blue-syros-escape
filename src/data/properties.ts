@@ -193,11 +193,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1499793983690-e29da59ef1c2"),
-      img("1582268611958-ebfd161ef9cf"),
-      img("1499696010180-025ef6e1a8f9"),
-    ],
+    images: agapiImages,
   },
   {
     id: "atria-melo-residences",
