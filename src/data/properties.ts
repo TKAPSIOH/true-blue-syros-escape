@@ -11,6 +11,7 @@ export type Property = {
   bookingUrl: string;
   images: string[];
   description?: string;
+  rates?: { june: number; july: number; august: number };
 };
 
 import alexandra027 from "@/assets/alexandra/027.jpg";
@@ -163,6 +164,7 @@ export const properties: Property[] = [
     bookingUrl: "https://www.airbnb.com/",
     description: "A calm, light-filled home just steps from Vari beach. Blue House blends Cycladic simplicity with modern comfort — whitewashed walls, wooden shutters, and a shaded courtyard for slow mornings. The sea is your front yard.",
     images: alexandraImages,
+    rates: { june: 180, july: 240, august: 280 },
   },
   {
     id: "olive-retreat-finikas",
@@ -176,6 +178,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.booking.com/",
     images: aplotisImages,
+    rates: { june: 110, july: 150, august: 180 },
   },
   {
     id: "villa-lilak-galissas",
@@ -189,6 +192,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
     images: villaLilakImages,
+    rates: { june: 420, july: 580, august: 680 },
   },
   {
     id: "dimitra-suite-white-suites",
@@ -202,6 +206,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: dimitraImages,
+    rates: { june: 160, july: 210, august: 250 },
   },
   {
     id: "vasiliki-suite-white-suites",
@@ -215,6 +220,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: vasilikiImages,
+    rates: { june: 120, july: 160, august: 190 },
   },
   {
     id: "agapi-melo-residences",
@@ -228,6 +234,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: agapiImages,
+    rates: { june: 130, july: 170, august: 200 },
   },
   {
     id: "atria-melo-residences",
@@ -241,6 +248,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: atriaImages,
+    rates: { june: 150, july: 195, august: 230 },
   },
   {
     id: "astivi-vari",
@@ -254,6 +262,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
     images: astiviImages,
+    rates: { june: 170, july: 220, august: 260 },
   },
   {
     id: "alexandros-suite-avrofilito",
@@ -271,6 +280,7 @@ export const properties: Property[] = [
       img("1600585154340-be6161a56a0c"),
       img("1600566753190-17f0baa2a6c3"),
     ],
+    rates: { june: 280, july: 380, august: 450 },
   },
   {
     id: "avra-suite-avrofilito",
@@ -288,6 +298,7 @@ export const properties: Property[] = [
       img("1560448204-e02f11c3d0e2"),
       img("1505693416388-ac5ce068fe85"),
     ],
+    rates: { june: 220, july: 290, august: 340 },
   },
   {
     id: "elia-suite-avrofilito",
@@ -305,6 +316,7 @@ export const properties: Property[] = [
       img("1568084680786-a84f91d1153c"),
       img("1540541338287-41700207dee6"),
     ],
+    rates: { june: 110, july: 145, august: 175 },
   },
   {
     id: "lithia-suite-avrofilito",
@@ -322,6 +334,7 @@ export const properties: Property[] = [
       img("1582268611958-ebfd161ef9cf"),
       img("1499696010180-025ef6e1a8f9"),
     ],
+    rates: { june: 110, july: 145, august: 175 },
   },
 
 ];

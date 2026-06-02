@@ -201,6 +201,23 @@ function ListingPage() {
                 />
               </div>
             </div>
+
+            {/* Indicative rates */}
+            {property.rates && (
+              <div className="mt-10">
+                <h2 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                  Indicative rates per night
+                </h2>
+                <div className="mt-4 grid grid-cols-3 gap-3">
+                  <RateCard month="June" price={property.rates.june} />
+                  <RateCard month="July" price={property.rates.july} />
+                  <RateCard month="August" price={property.rates.august} />
+                </div>
+                <p className="mt-3 text-xs text-muted-foreground">
+                  Prices are indicative and may vary by dates and length of stay.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Booking card */}
@@ -269,6 +286,20 @@ function SpecCard({
         <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">{label}</dt>
         <dd className="mt-0.5 text-lg font-medium text-foreground">{value}</dd>
       </div>
+    </div>
+  );
+}
+
+function RateCard({ month, price }: { month: string; price: number }) {
+  return (
+    <div className="flex flex-col items-start gap-1 rounded-lg border border-border/70 bg-secondary/40 px-4 py-3">
+      <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+        {month}
+      </span>
+      <span className="font-serif text-xl text-foreground">
+        €{price}
+        <span className="ml-1 text-xs text-muted-foreground">/ night</span>
+      </span>
     </div>
   );
 }
