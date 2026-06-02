@@ -316,6 +316,7 @@ export const properties: Property[] = [
       img("1568084680786-a84f91d1153c"),
       img("1540541338287-41700207dee6"),
     ],
+    rates: { june: 110, july: 145, august: 175 },
   },
   {
     id: "lithia-suite-avrofilito",
