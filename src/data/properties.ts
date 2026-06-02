@@ -61,6 +61,26 @@ const atriaImages = [
   atriaKitchen.url,
   atriaLivingNight.url,
 ];
+import astivi6387 from "@/assets/astivi/0Z1A6387.jpg.asset.json";
+import astivi6293 from "@/assets/astivi/0Z1A6293.jpg.asset.json";
+import astivi6182 from "@/assets/astivi/0Z1A6182.jpg.asset.json";
+import astivi6259 from "@/assets/astivi/0Z1A6259.jpg.asset.json";
+import astivi6268 from "@/assets/astivi/0Z1A6268.jpg.asset.json";
+import astivi6271 from "@/assets/astivi/0Z1A6271.jpg.asset.json";
+import astivi6149 from "@/assets/astivi/0Z1A6149.jpg.asset.json";
+import astivi6318 from "@/assets/astivi/0Z1A6318.jpg.asset.json";
+
+const astiviImages = [
+  astivi6387.url,
+  astivi6293.url,
+  astivi6182.url,
+  astivi6259.url,
+  astivi6268.url,
+  astivi6271.url,
+  astivi6149.url,
+  astivi6318.url,
+];
+
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
 import vasiliki054 from "@/assets/vasiliki/054.jpg";
