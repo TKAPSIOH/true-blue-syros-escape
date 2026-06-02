@@ -178,6 +178,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.booking.com/",
     images: aplotisImages,
+    rates: { june: 110, july: 150, august: 180 },
   },
   {
     id: "villa-lilak-galissas",
