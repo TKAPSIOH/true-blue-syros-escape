@@ -11,6 +11,7 @@ export type Property = {
   bookingUrl: string;
   images: string[];
   description?: string;
+  rates?: { june: number; july: number; august: number };
 };
 
 import alexandra027 from "@/assets/alexandra/027.jpg";
