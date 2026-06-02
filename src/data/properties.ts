@@ -41,6 +41,12 @@ import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
 import dimitra014 from "@/assets/dimitra/014.jpg";
 import dimitra077 from "@/assets/dimitra/077.jpg";
+import agapiBedroom from "@/assets/agapi/ikyes-sonidos-bedroom.jpg.asset.json";
+import agapiBedroom2 from "@/assets/agapi/ikyes-sonidos-bedroom-2.jpg.asset.json";
+import agapiKitchen1 from "@/assets/agapi/ikyes-sonidos-kitchen-1.jpg.asset.json";
+import agapiKitchen3 from "@/assets/agapi/ikyes-sonidos-kitchen-3.jpg.asset.json";
+import agapiLivingRoom2 from "@/assets/agapi/ikyes-sonidos-living-room-2.jpg.asset.json";
+import agapiLivingRoomAtNight from "@/assets/agapi/ikyes-sonidos-living-room-at-night.jpg.asset.json";
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
 import vasiliki054 from "@/assets/vasiliki/054.jpg";
@@ -60,6 +66,15 @@ const vasilikiImages = [
 ];
 
 const dimitraImages = [dimitra014, dimitra077];
+
+const agapiImages = [
+  agapiBedroom.url,
+  agapiBedroom2.url,
+  agapiKitchen1.url,
+  agapiKitchen3.url,
+  agapiLivingRoom2.url,
+  agapiLivingRoomAtNight.url,
+];
 
 const villaLilakImages = [
   villaLilak001,
@@ -178,11 +193,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1499793983690-e29da59ef1c2"),
-      img("1582268611958-ebfd161ef9cf"),
-      img("1499696010180-025ef6e1a8f9"),
-    ],
+    images: agapiImages,
   },
   {
     id: "atria-melo-residences",
