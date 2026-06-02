@@ -47,6 +47,20 @@ import agapiKitchen1 from "@/assets/agapi/ikyes-sonidos-kitchen-1.jpg.asset.json
 import agapiKitchen3 from "@/assets/agapi/ikyes-sonidos-kitchen-3.jpg.asset.json";
 import agapiLivingRoom2 from "@/assets/agapi/ikyes-sonidos-living-room-2.jpg.asset.json";
 import agapiLivingRoomAtNight from "@/assets/agapi/ikyes-sonidos-living-room-at-night.jpg.asset.json";
+import atriaBathroom from "@/assets/atria/bathroom.jpg.asset.json";
+import atriaBedroom from "@/assets/atria/bedroom.jpg.asset.json";
+import atriaBedroomStaircase from "@/assets/atria/bedroom-staircase.jpg.asset.json";
+import atriaKitchen from "@/assets/atria/kitchen-appliances.jpg.asset.json";
+import atriaLivingNight from "@/assets/atria/living-room-night.jpg.asset.json";
+import atriaLounge from "@/assets/atria/lounge.jpg.asset.json";
+const atriaImages = [
+  atriaLounge.url,
+  atriaBedroom.url,
+  atriaBedroomStaircase.url,
+  atriaBathroom.url,
+  atriaKitchen.url,
+  atriaLivingNight.url,
+];
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
 import vasiliki054 from "@/assets/vasiliki/054.jpg";
@@ -206,11 +220,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1564540583246-934409427776"),
-      img("1600585154340-be6161a56a0c"),
-      img("1600566753190-17f0baa2a6c3"),
-    ],
+    images: atriaImages,
   },
   {
     id: "astivi-vari",
