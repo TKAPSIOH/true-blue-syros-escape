@@ -316,11 +316,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1571508601891-ca5e7a713859"),
-      img("1568084680786-a84f91d1153c"),
-      img("1540541338287-41700207dee6"),
-    ],
+    images: eliaImages,
     rates: { june: 110, july: 145, august: 175 },
   },
   {
