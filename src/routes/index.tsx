@@ -68,9 +68,9 @@ function Index() {
         </div>
 
         {/* Filter bar */}
-        <div className="absolute inset-x-0 bottom-0 z-20 translate-y-1/2 px-6 sm:px-10">
+        <div className="absolute inset-x-0 bottom-6 z-20 px-6 sm:px-10">
           <div className="mx-auto max-w-4xl rounded-xl border border-border/70 bg-card/95 p-3 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] backdrop-blur-md sm:p-2">
-            <div className="grid grid-cols-1 gap-2 sm:grid-cols-[1fr_1fr_auto]">
+            <div className="grid grid-cols-1 items-stretch gap-2 sm:grid-cols-[1fr_1fr_auto]">
               <FilterField label="Area">
                 <select
                   value={area}
@@ -97,7 +97,7 @@ function Index() {
               </FilterField>
               <a
                 href="#stays"
-                className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary px-6 py-3 text-sm font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90"
               >
                 Show {filtered.length} home{filtered.length === 1 ? "" : "s"}
               </a>
@@ -107,7 +107,7 @@ function Index() {
       </section>
 
       {/* Property grid */}
-      <section id="stays" className="mx-auto max-w-7xl px-6 pb-24 pt-40 sm:px-10 sm:pt-48">
+      <section id="stays" className="mx-auto max-w-7xl px-6 pb-24 pt-20 sm:px-10 sm:pt-24">
         <div className="mb-12 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">
