@@ -62,6 +62,11 @@ const atriaImages = [
   atriaKitchen.url,
   atriaLivingNight.url,
 ];
+import eliaBedroom from "@/assets/elia/bedroom.jpg.asset.json";
+import eliaBathroom from "@/assets/elia/bathroom.jpg.asset.json";
+import eliaLiving from "@/assets/elia/living.jpg.asset.json";
+import eliaView from "@/assets/elia/view.jpg.asset.json";
+const eliaImages = [eliaView.url, eliaBedroom.url, eliaLiving.url, eliaBathroom.url];
 import astivi6387 from "@/assets/astivi/0Z1A6387.jpg.asset.json";
 import astivi6293 from "@/assets/astivi/0Z1A6293.jpg.asset.json";
 import astivi6182 from "@/assets/astivi/0Z1A6182.jpg.asset.json";
