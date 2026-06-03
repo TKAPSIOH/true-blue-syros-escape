@@ -62,6 +62,11 @@ const atriaImages = [
   atriaKitchen.url,
   atriaLivingNight.url,
 ];
+import eliaBedroom from "@/assets/elia/bedroom.jpg.asset.json";
+import eliaBathroom from "@/assets/elia/bathroom.jpg.asset.json";
+import eliaLiving from "@/assets/elia/living.jpg.asset.json";
+import eliaView from "@/assets/elia/view.jpg.asset.json";
+const eliaImages = [eliaView.url, eliaBedroom.url, eliaLiving.url, eliaBathroom.url];
 import astivi6387 from "@/assets/astivi/0Z1A6387.jpg.asset.json";
 import astivi6293 from "@/assets/astivi/0Z1A6293.jpg.asset.json";
 import astivi6182 from "@/assets/astivi/0Z1A6182.jpg.asset.json";
@@ -311,11 +316,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1571508601891-ca5e7a713859"),
-      img("1568084680786-a84f91d1153c"),
-      img("1540541338287-41700207dee6"),
-    ],
+    images: eliaImages,
     rates: { june: 110, july: 145, august: 175 },
   },
   {
