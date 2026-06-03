@@ -102,6 +102,21 @@ const lithiaImages = [
   lithiaBathroom.url,
 ];
 
+import avraTerrace from "@/assets/avra/IMG_4449-Edit-site.jpg.asset.json";
+import avraExterior from "@/assets/avra/IMG_4323-Edit-site.jpg.asset.json";
+import avraLiving from "@/assets/avra/IMG_4040-Edit-site.jpg.asset.json";
+import avraBedroomTwin from "@/assets/avra/IMG_3961-Edit-site.jpg.asset.json";
+import avraBedroomDouble from "@/assets/avra/IMG_3976-Edit-site.jpg.asset.json";
+import avraKitchen from "@/assets/avra/IMG_4011-Edit-site.jpg.asset.json";
+const avraImages = [
+  avraTerrace.url,
+  avraLiving.url,
+  avraBedroomDouble.url,
+  avraBedroomTwin.url,
+  avraKitchen.url,
+  avraExterior.url,
+];
+
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
 import vasiliki054 from "@/assets/vasiliki/054.jpg";
@@ -313,11 +328,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1522708323590-d24dbb6b0267"),
-      img("1560448204-e02f11c3d0e2"),
-      img("1505693416388-ac5ce068fe85"),
-    ],
+    images: avraImages,
     rates: { june: 220, july: 290, august: 340 },
   },
   {
