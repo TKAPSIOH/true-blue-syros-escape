@@ -87,6 +87,21 @@ const astiviImages = [
   astivi6318.url,
 ];
 
+import lithiaBedroom from "@/assets/lithia/IMG_4107-Edit-site.jpg.asset.json";
+import lithiaKitchen from "@/assets/lithia/IMG_4128-Edit-site.jpg.asset.json";
+import lithiaLiving from "@/assets/lithia/IMG_4158-Edit-site.jpg.asset.json";
+import lithiaBathroom from "@/assets/lithia/IMG_4181-Edit-site.jpg.asset.json";
+import lithiaExterior from "@/assets/lithia/IMG_4303-Edit-site.jpg.asset.json";
+import lithiaTerrace from "@/assets/lithia/IMG_4316-Edit-site.jpg.asset.json";
+const lithiaImages = [
+  lithiaTerrace.url,
+  lithiaExterior.url,
+  lithiaBedroom.url,
+  lithiaLiving.url,
+  lithiaKitchen.url,
+  lithiaBathroom.url,
+];
+
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
 import vasiliki054 from "@/assets/vasiliki/054.jpg";
