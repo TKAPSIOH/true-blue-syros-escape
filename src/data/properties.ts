@@ -98,6 +98,23 @@ const lithiaImages = [
   lithiaExterior.url,
   lithiaBedroom.url,
   lithiaLiving.url,
+];
+
+import avraTerrace from "@/assets/avra/IMG_4449-Edit-site.jpg.asset.json";
+import avraExterior from "@/assets/avra/IMG_4323-Edit-site.jpg.asset.json";
+import avraLiving from "@/assets/avra/IMG_4040-Edit-site.jpg.asset.json";
+import avraBedroomTwin from "@/assets/avra/IMG_3961-Edit-site.jpg.asset.json";
+import avraBedroomDouble from "@/assets/avra/IMG_3976-Edit-site.jpg.asset.json";
+import avraKitchen from "@/assets/avra/IMG_4011-Edit-site.jpg.asset.json";
+const avraImages = [
+  avraTerrace.url,
+  avraLiving.url,
+  avraBedroomDouble.url,
+  avraBedroomTwin.url,
+  avraKitchen.url,
+  avraExterior.url,
+];
+const __removeMe__ = [
   lithiaKitchen.url,
   lithiaBathroom.url,
 ];
