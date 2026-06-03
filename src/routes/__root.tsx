@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "True Blue — Curated Vacation Homes in Syros" },
+      { title: "Trueblue — Curated Vacation Homes in Syros" },
       { name: "description", content: "A small collection of carefully chosen vacation homes across the island of Syros, Greece. Honest stays, true to the Aegean." },
-      { name: "author", content: "True Blue" },
-      { property: "og:title", content: "True Blue — Curated Vacation Homes in Syros" },
+      { name: "author", content: "Trueblue" },
+      { property: "og:title", content: "Trueblue — Curated Vacation Homes in Syros" },
       { property: "og:description", content: "A small collection of carefully chosen vacation homes across the island of Syros, Greece." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
