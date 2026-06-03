@@ -26,7 +26,7 @@ function Index() {
       <header className="absolute inset-x-0 top-0 z-20">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 sm:px-10">
           <a href="/" className="flex items-baseline gap-2 text-white">
-            <span className="font-serif text-2xl tracking-tight">True Blue</span>
+            <span className="font-serif text-2xl tracking-tight">Trueblue</span>
             <span className="hidden text-xs uppercase tracking-[0.25em] opacity-70 sm:inline">
               Syros
             </span>
@@ -151,13 +151,13 @@ function Index() {
       <footer id="contact" className="border-t border-border/70 bg-secondary/30">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-6 py-12 sm:flex-row sm:items-center sm:px-10">
           <div>
-            <p className="font-serif text-xl text-foreground">True Blue</p>
+            <p className="font-serif text-xl text-foreground">Trueblue</p>
             <p className="mt-1 text-xs uppercase tracking-[0.25em] text-muted-foreground">
               Syros · Cyclades
             </p>
           </div>
           <p className="text-sm text-muted-foreground">
-            hello@trueblue.gr · © {new Date().getFullYear()}
+            info@true-blue.gr · © {new Date().getFullYear()}
           </p>
         </div>
       </footer>
