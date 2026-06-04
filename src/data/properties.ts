@@ -343,7 +343,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
     images: eliaImages,
-    rates: { june: 110, july: 145, august: 175 },
+    rates: { june: 140, july: 180, august: 220 },
   },
   {
     id: "lithia-suite-avrofilito",
