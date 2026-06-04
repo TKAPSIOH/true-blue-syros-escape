@@ -31,11 +31,6 @@ function Index() {
               Syros
             </span>
           </a>
-          <div className="hidden items-center gap-8 text-sm text-white/85 md:flex">
-            <a href="#stays" className="transition hover:text-white">Stays</a>
-            <a href="#about" className="transition hover:text-white">About</a>
-            <a href="#contact" className="transition hover:text-white">Contact</a>
-          </div>
         </nav>
       </header>
 
