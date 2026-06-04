@@ -151,9 +151,7 @@ export function PropertyCard({ property }: { property: Property }) {
 
         {/* CTA */}
         <a
-          href={property.bookingUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="tel:+306944367844"
           className="mt-6 inline-flex items-center justify-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-medium tracking-wide text-accent-foreground transition-all duration-300 hover:gap-3 hover:bg-accent/90"
         >
           Book now with a call
