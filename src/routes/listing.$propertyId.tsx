@@ -232,9 +232,7 @@ function ListingPage() {
 
               <div className="mt-6 space-y-3">
                 <a
-                  href={property.bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+306944367844"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-accent px-5 py-3.5 text-sm font-medium tracking-wide text-accent-foreground transition-all duration-300 hover:gap-3 hover:bg-accent/90"
                 >
                   Book now with a call
