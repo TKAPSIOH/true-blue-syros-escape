@@ -34,7 +34,7 @@ function Amenity({
           enabled ? "text-accent" : "text-muted-foreground/60"
         }`}
       >
-        {enabled ? "Yes" : "No"}
+        {enabled ? "Yes" : "PUBLIC"}
       </span>
     </div>
   );
@@ -156,7 +156,7 @@ export function PropertyCard({ property }: { property: Property }) {
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center justify-center gap-2 rounded-md bg-accent px-5 py-3 text-sm font-medium tracking-wide text-accent-foreground transition-all duration-300 hover:gap-3 hover:bg-accent/90"
         >
-          Check Rates &amp; Availability
+          Book now with a call
           <ArrowUpRight className="h-4 w-4" strokeWidth={1.75} />
         </a>
       </div>

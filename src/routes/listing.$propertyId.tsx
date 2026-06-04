@@ -174,7 +174,7 @@ function ListingPage() {
               <SpecCard
                 icon={<Bath className="h-5 w-5" strokeWidth={1.5} />}
                 label="WC"
-                value={String(property.bathrooms)}
+                value={`${property.bathrooms} en-suite`}
               />
             </div>
 
@@ -227,7 +227,7 @@ function ListingPage() {
                 Starting from
               </p>
               <p className="mt-1 font-serif text-3xl text-foreground">
-                €95 <span className="text-base text-muted-foreground">/ night</span>
+                {"\n"}
               </p>
 
               <div className="mt-6 space-y-3">
@@ -237,7 +237,7 @@ function ListingPage() {
                   rel="noopener noreferrer"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-accent px-5 py-3.5 text-sm font-medium tracking-wide text-accent-foreground transition-all duration-300 hover:gap-3 hover:bg-accent/90"
                 >
-                  Check Rates &amp; Availability
+                  Book now with a call
                   <ArrowUpRight className="h-4 w-4" strokeWidth={1.75} />
                 </a>
               </div>
@@ -325,7 +325,7 @@ function AmenityRow({
             enabled ? "text-accent" : "text-muted-foreground/50"
           }`}
         >
-          {enabled ? "Yes" : "No"}
+          {enabled ? "Yes" : "PUBLIC"}
         </span>
       </div>
     </div>

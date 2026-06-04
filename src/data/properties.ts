@@ -197,9 +197,9 @@ export const properties: Property[] = [
     bathrooms: 2,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    description: "A calm, light-filled home just steps from Vari beach. Blue House blends Cycladic simplicity with modern comfort — whitewashed walls, wooden shutters, and a shaded courtyard for slow mornings. The sea is your front yard.",
+    description: "A calm, light-filled home just steps from Ermoupoli town center. White Suites blend Cycladic simplicity with modern comfort. ",
     images: alexandraImages,
-    rates: { june: 180, july: 240, august: 280 },
+    rates: { june: 170, july: 250, august: 320 },
   },
   {
     id: "olive-retreat-finikas",
