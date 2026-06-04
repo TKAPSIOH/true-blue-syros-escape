@@ -315,7 +315,7 @@ export const properties: Property[] = [
       img("1600585154340-be6161a56a0c"),
       img("1600566753190-17f0baa2a6c3"),
     ],
-    rates: { june: 280, july: 380, august: 450 },
+    rates: { june: 240, july: 280, august: 320 },
   },
   {
     id: "avra-suite-avrofilito",
