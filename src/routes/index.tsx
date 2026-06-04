@@ -156,8 +156,9 @@ function Index() {
               Syros · Cyclades
             </p>
           </div>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground whitespace-pre-line">
             info@true-blue.gr · © {new Date().getFullYear()}
+{"+30 6944 367 844 Tasos\n+30 6944 612 624 Dimitris\n\n"}
           </p>
         </div>
       </footer>
