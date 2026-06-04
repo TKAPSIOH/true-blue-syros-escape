@@ -244,8 +244,7 @@ function ListingPage() {
 
               <div className="mt-6 border-t border-border/60 pt-4">
                 <p className="text-xs leading-relaxed text-muted-foreground whitespace-pre-line">
-                  Free cancellation up to  hours before check-in. Instant confirmation.
-{"30% payment in-advance, quittance upon arrival"}
+                  Instant confirmation. 30% payment in-advance, quittance upon arrival
                 </p>
               </div>
             </div>
