@@ -173,8 +173,8 @@ function ListingPage() {
               />
               <SpecCard
                 icon={<Bath className="h-5 w-5" strokeWidth={1.5} />}
-                label="WC"
-                value={`${property.bathrooms} en-suite`}
+                label={property.id === "blue-house-vari" || property.id === "villa-lilak-galissas" ? "WC en-suite" : "WC"}
+                value={String(property.bathrooms)}
               />
             </div>
 
