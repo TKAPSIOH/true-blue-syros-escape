@@ -329,7 +329,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
     images: avraImages,
-    rates: { june: 220, july: 290, august: 340 },
+    rates: { june: 240, july: 270, august: 300 },
   },
   {
     id: "elia-suite-avrofilito",
