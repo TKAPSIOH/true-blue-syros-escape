@@ -224,7 +224,7 @@ function ListingPage() {
           <aside className="animate-fade-up">
             <div className="sticky top-8 rounded-xl border border-border/70 bg-card p-6 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.15)]">
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                Starting from
+                {"\n"}
               </p>
               <p className="mt-1 font-serif text-3xl text-foreground">
                 {"\n"}
@@ -243,8 +243,9 @@ function ListingPage() {
               </div>
 
               <div className="mt-6 border-t border-border/60 pt-4">
-                <p className="text-xs leading-relaxed text-muted-foreground">
-                  Free cancellation up to 48 hours before check-in. Instant confirmation.
+                <p className="text-xs leading-relaxed text-muted-foreground whitespace-pre-line">
+                  Free cancellation up to  hours before check-in. Instant confirmation.
+{"30% payment in-advance, quittance upon arrival"}
                 </p>
               </div>
             </div>
@@ -261,8 +262,9 @@ function ListingPage() {
               Syros · Cyclades
             </p>
           </div>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground whitespace-pre-line">
             info@true-blue.gr · © {new Date().getFullYear()}
+{"+30 6944 367 844 Tasos\n+30 6944 612 624 Dimitris\n\n"}
           </p>
         </div>
       </footer>
