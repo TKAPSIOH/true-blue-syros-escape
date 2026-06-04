@@ -269,7 +269,7 @@ export const properties: Property[] = [
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
     images: agapiImages,
-    rates: { june: 130, july: 170, august: 200 },
+    rates: { june: 140, july: 170, august: 200 },
   },
   {
     id: "atria-melo-residences",
