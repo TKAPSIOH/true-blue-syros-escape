@@ -87,6 +87,26 @@ const astiviImages = [
   astivi6318.url,
 ];
 
+import alexandrosImg6 from "@/assets/alexandros/img6.jpg.asset.json";
+import alexandrosImg16 from "@/assets/alexandros/img16.jpg.asset.json";
+import alexandrosImg22 from "@/assets/alexandros/img22.jpg.asset.json";
+import alexandrosImg25 from "@/assets/alexandros/img25.jpg.asset.json";
+import alexandrosImg31 from "@/assets/alexandros/img31.jpg.asset.json";
+import alexandrosImg34 from "@/assets/alexandros/img34.jpg.asset.json";
+import alexandrosImg37 from "@/assets/alexandros/img37.jpg.asset.json";
+import alexandrosImg40 from "@/assets/alexandros/img40.jpg.asset.json";
+import alexandrosImg46 from "@/assets/alexandros/img46.jpg.asset.json";
+const alexandrosImages = [
+  alexandrosImg6.url,
+  alexandrosImg46.url,
+  alexandrosImg16.url,
+  alexandrosImg22.url,
+  alexandrosImg25.url,
+  alexandrosImg31.url,
+  alexandrosImg34.url,
+  alexandrosImg40.url,
+  alexandrosImg37.url,
+];
 import lithiaBedroom from "@/assets/lithia/IMG_4107-Edit-site.jpg.asset.json";
 import lithiaKitchen from "@/assets/lithia/IMG_4128-Edit-site.jpg.asset.json";
 import lithiaLiving from "@/assets/lithia/IMG_4158-Edit-site.jpg.asset.json";
@@ -310,11 +330,7 @@ export const properties: Property[] = [
     bathrooms: 2,
     amenities: { wifi: true, ac: true, parking: true },
     bookingUrl: "https://www.airbnb.com/",
-    images: [
-      img("1564540583246-934409427776"),
-      img("1600585154340-be6161a56a0c"),
-      img("1600566753190-17f0baa2a6c3"),
-    ],
+    images: alexandrosImages,
     rates: { june: 240, july: 280, august: 320 },
   },
   {
