@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
@@ -57,7 +57,7 @@ export function PropertyCard({ property }: { property: Property }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border/70 bg-card transition-all duration-500 hover:border-accent/40 hover:shadow-[0_20px_60px_-30px_oklch(0.5_0.16_235/0.35)]">
-      <Link to="/listing/$propertyId" params={{ propertyId: property.id }}>
+      <Link to={`/listing/${property.id}`}>
         {/* Image slider */}
         <div className="relative aspect-[4/3] overflow-hidden bg-muted">
           <div className="h-full overflow-hidden" ref={emblaRef}>

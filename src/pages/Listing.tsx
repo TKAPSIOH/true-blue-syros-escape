@@ -1,5 +1,5 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
+import { Link, useParams, Navigate } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 import {
   ChevronLeft,
@@ -16,28 +16,10 @@ import {
 } from "lucide-react";
 import { properties } from "@/data/properties";
 
-export const Route = createFileRoute("/listing/$propertyId")({
-  component: ListingPage,
-  loader: ({ params }) => {
-    const property = properties.find((p) => p.id === params.propertyId);
-    if (!property) throw notFound();
-    return { property };
-  },
-  head: ({ loaderData }) => {
-    const p = loaderData?.property;
-    return {
-      meta: [
-        { title: p ? `${p.name} — Trueblue · Syros` : "Trueblue · Syros" },
-        { name: "description", content: p ? `Stay at ${p.name} in ${p.area}, Syros. ${p.maxGuests} guests · ${p.sizeSqm} m².` : "Curated vacation homes in Syros, Greece." },
-        { property: "og:title", content: p ? `${p.name} — Trueblue · Syros` : "Trueblue · Syros" },
-        { property: "og:type", content: "website" },
-      ],
-    };
-  },
-});
+export default function Listing() {
+  const { propertyId } = useParams<{ propertyId: string }>();
+  const property = properties.find((p) => p.id === propertyId);
 
-function ListingPage() {
-  const { property } = Route.useLoaderData();
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selected, setSelected] = useState(0);
 
@@ -51,6 +33,16 @@ function ListingPage() {
     emblaApi.on("select", onSelect);
     onSelect();
   }, [emblaApi, onSelect]);
+
+  useEffect(() => {
+    if (property) {
+      document.title = `${property.name} — Trueblue · Syros`;
+    }
+  }, [property]);
+
+  if (!property) {
+    return <Navigate to="/" replace />;
+  }
 
   return (
     <div className="min-h-screen bg-background text-foreground">
