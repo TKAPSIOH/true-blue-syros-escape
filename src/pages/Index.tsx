@@ -1,14 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { properties, areas } from "@/data/properties";
 import { PropertyCard } from "@/components/PropertyCard";
 import heroImg from "@/assets/hero-syros.jpg";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
-
-function Index() {
+export default function Index() {
   const [area, setArea] = useState<string>("all");
   const [capacity, setCapacity] = useState<string>("any");
 
