@@ -104,7 +104,7 @@ export default function Index() {
               The collection
             </p>
             <h2 className="mt-2 font-serif text-3xl text-foreground sm:text-4xl">
-              Homes to keep, not just to&nbsp;visit.
+              Home to keep, not just to&nbsp;visit.
             </h2>
           </div>
           <p className="max-w-sm text-sm text-muted-foreground">
