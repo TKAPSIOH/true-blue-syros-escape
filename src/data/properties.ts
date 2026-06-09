@@ -69,24 +69,28 @@ import eliaBathroom from "@/assets/elia/bathroom.jpg.asset.json";
 import eliaLiving from "@/assets/elia/living.jpg.asset.json";
 import eliaView from "@/assets/elia/view.jpg.asset.json";
 const eliaImages = [eliaView.url, eliaBedroom.url, eliaLiving.url, eliaBathroom.url];
-import astivi6387 from "@/assets/astivi/0Z1A6387.jpg.asset.json";
-import astivi6293 from "@/assets/astivi/0Z1A6293.jpg.asset.json";
-import astivi6182 from "@/assets/astivi/0Z1A6182.jpg.asset.json";
-import astivi6259 from "@/assets/astivi/0Z1A6259.jpg.asset.json";
-import astivi6268 from "@/assets/astivi/0Z1A6268.jpg.asset.json";
-import astivi6271 from "@/assets/astivi/0Z1A6271.jpg.asset.json";
-import astivi6149 from "@/assets/astivi/0Z1A6149.jpg.asset.json";
-import astivi6318 from "@/assets/astivi/0Z1A6318.jpg.asset.json";
+import astivi4 from "@/assets/astivi-new/011_4.jpg.asset.json";
+import astivi6 from "@/assets/astivi-new/011_6.jpg.asset.json";
+import astivi9 from "@/assets/astivi-new/011_9.jpg.asset.json";
+import astivi10 from "@/assets/astivi-new/011_10.jpg.asset.json";
+import astivi18 from "@/assets/astivi-new/011_18.jpg.asset.json";
+import astivi19 from "@/assets/astivi-new/011_19.jpg.asset.json";
+import astivi26 from "@/assets/astivi-new/011_26.jpg.asset.json";
+import astivi35 from "@/assets/astivi-new/011_35.jpg.asset.json";
+import astivi43 from "@/assets/astivi-new/011_43.jpg.asset.json";
+import astivi45 from "@/assets/astivi-new/011_45.jpg.asset.json";
 
 const astiviImages = [
-  astivi6387.url,
-  astivi6293.url,
-  astivi6182.url,
-  astivi6259.url,
-  astivi6268.url,
-  astivi6271.url,
-  astivi6149.url,
-  astivi6318.url,
+  astivi43.url,
+  astivi6.url,
+  astivi45.url,
+  astivi10.url,
+  astivi18.url,
+  astivi9.url,
+  astivi19.url,
+  astivi35.url,
+  astivi26.url,
+  astivi4.url,
 ];
 
 import alexandrosImg6 from "@/assets/alexandros/img6.jpg.asset.json";
