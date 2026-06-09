@@ -93,25 +93,21 @@ const astiviImages = [
   astivi4.url,
 ];
 
-import alexandrosImg6 from "@/assets/alexandros/img6.jpg.asset.json";
-import alexandrosImg16 from "@/assets/alexandros/img16.jpg.asset.json";
-import alexandrosImg22 from "@/assets/alexandros/img22.jpg.asset.json";
-import alexandrosImg25 from "@/assets/alexandros/img25.jpg.asset.json";
-import alexandrosImg31 from "@/assets/alexandros/img31.jpg.asset.json";
-import alexandrosImg34 from "@/assets/alexandros/img34.jpg.asset.json";
-import alexandrosImg37 from "@/assets/alexandros/img37.jpg.asset.json";
-import alexandrosImg40 from "@/assets/alexandros/img40.jpg.asset.json";
-import alexandrosImg46 from "@/assets/alexandros/img46.jpg.asset.json";
+import alexandros3 from "@/assets/alexandros-new/012_3.jpg.asset.json";
+import alexandros5 from "@/assets/alexandros-new/012_5.jpg.asset.json";
+import alexandros6n from "@/assets/alexandros-new/012_6.jpg.asset.json";
+import alexandros9 from "@/assets/alexandros-new/012_9.jpg.asset.json";
+import alexandros10 from "@/assets/alexandros-new/012_10.jpg.asset.json";
+import alexandros11 from "@/assets/alexandros-new/012_11.jpg.asset.json";
+import alexandros13 from "@/assets/alexandros-new/012_13.jpg.asset.json";
 const alexandrosImages = [
-  alexandrosImg6.url,
-  alexandrosImg46.url,
-  alexandrosImg16.url,
-  alexandrosImg22.url,
-  alexandrosImg25.url,
-  alexandrosImg31.url,
-  alexandrosImg34.url,
-  alexandrosImg40.url,
-  alexandrosImg37.url,
+  alexandros13.url,
+  alexandros3.url,
+  alexandros5.url,
+  alexandros6n.url,
+  alexandros11.url,
+  alexandros9.url,
+  alexandros10.url,
 ];
 import lithiaBedroom from "@/assets/lithia/IMG_4107-Edit-site.jpg.asset.json";
 import lithiaKitchen from "@/assets/lithia/IMG_4128-Edit-site.jpg.asset.json";
