@@ -48,19 +48,21 @@ import agapi6 from "@/assets/agapi-new/009_6.jpg.asset.json";
 import agapi7 from "@/assets/agapi-new/009_7.jpg.asset.json";
 import agapi10 from "@/assets/agapi-new/009_10.jpg.asset.json";
 import agapi12 from "@/assets/agapi-new/009_12.jpg.asset.json";
-import atriaBathroom from "@/assets/atria/bathroom.jpg.asset.json";
-import atriaBedroom from "@/assets/atria/bedroom.jpg.asset.json";
-import atriaBedroomStaircase from "@/assets/atria/bedroom-staircase.jpg.asset.json";
-import atriaKitchen from "@/assets/atria/kitchen-appliances.jpg.asset.json";
-import atriaLivingNight from "@/assets/atria/living-room-night.jpg.asset.json";
-import atriaLounge from "@/assets/atria/lounge.jpg.asset.json";
+import atria1 from "@/assets/atria-new/010_1.jpg.asset.json";
+import atria2 from "@/assets/atria-new/010_2.jpg.asset.json";
+import atria3 from "@/assets/atria-new/010_3.jpg.asset.json";
+import atria9 from "@/assets/atria-new/010_9.jpg.asset.json";
+import atria10 from "@/assets/atria-new/010_10.jpg.asset.json";
+import atria12 from "@/assets/atria-new/010_12.jpg.asset.json";
+import atria15 from "@/assets/atria-new/010_15.jpg.asset.json";
 const atriaImages = [
-  atriaLounge.url,
-  atriaBedroom.url,
-  atriaBedroomStaircase.url,
-  atriaBathroom.url,
-  atriaKitchen.url,
-  atriaLivingNight.url,
+  atria3.url,
+  atria10.url,
+  atria12.url,
+  atria9.url,
+  atria1.url,
+  atria2.url,
+  atria15.url,
 ];
 import eliaBedroom from "@/assets/elia/bedroom.jpg.asset.json";
 import eliaBathroom from "@/assets/elia/bathroom.jpg.asset.json";
