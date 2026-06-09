@@ -124,19 +124,19 @@ const lithiaImages = [
   lithiaBathroom.url,
 ];
 
-import avraTerrace from "@/assets/avra/IMG_4449-Edit-site.jpg.asset.json";
-import avraExterior from "@/assets/avra/IMG_4323-Edit-site.jpg.asset.json";
-import avraLiving from "@/assets/avra/IMG_4040-Edit-site.jpg.asset.json";
-import avraBedroomTwin from "@/assets/avra/IMG_3961-Edit-site.jpg.asset.json";
-import avraBedroomDouble from "@/assets/avra/IMG_3976-Edit-site.jpg.asset.json";
-import avraKitchen from "@/assets/avra/IMG_4011-Edit-site.jpg.asset.json";
+import avra1 from "@/assets/avra-new/002_1.jpg.asset.json";
+import avra2 from "@/assets/avra-new/002_2.jpg.asset.json";
+import avra3 from "@/assets/avra-new/002_3.jpg.asset.json";
+import avra5 from "@/assets/avra-new/002_5.jpg.asset.json";
+import avra6 from "@/assets/avra-new/002_6.jpg.asset.json";
+import avra9 from "@/assets/avra-new/002_9.jpg.asset.json";
 const avraImages = [
-  avraTerrace.url,
-  avraLiving.url,
-  avraBedroomDouble.url,
-  avraBedroomTwin.url,
-  avraKitchen.url,
-  avraExterior.url,
+  avra1.url,
+  avra6.url,
+  avra3.url,
+  avra2.url,
+  avra5.url,
+  avra9.url,
 ];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
