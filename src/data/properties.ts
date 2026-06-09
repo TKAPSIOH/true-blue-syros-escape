@@ -42,12 +42,12 @@ import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
 import dimitra014 from "@/assets/dimitra/014.jpg";
 import dimitra077 from "@/assets/dimitra/077.jpg";
-import agapiBedroom from "@/assets/agapi/ikyes-sonidos-bedroom.jpg.asset.json";
-import agapiBedroom2 from "@/assets/agapi/ikyes-sonidos-bedroom-2.jpg.asset.json";
-import agapiKitchen1 from "@/assets/agapi/ikyes-sonidos-kitchen-1.jpg.asset.json";
-import agapiKitchen3 from "@/assets/agapi/ikyes-sonidos-kitchen-3.jpg.asset.json";
-import agapiLivingRoom2 from "@/assets/agapi/ikyes-sonidos-living-room-2.jpg.asset.json";
-import agapiLivingRoomAtNight from "@/assets/agapi/ikyes-sonidos-living-room-at-night.jpg.asset.json";
+import agapi1 from "@/assets/agapi-new/009_1.jpg.asset.json";
+import agapi5 from "@/assets/agapi-new/009_5.jpg.asset.json";
+import agapi6 from "@/assets/agapi-new/009_6.jpg.asset.json";
+import agapi7 from "@/assets/agapi-new/009_7.jpg.asset.json";
+import agapi10 from "@/assets/agapi-new/009_10.jpg.asset.json";
+import agapi12 from "@/assets/agapi-new/009_12.jpg.asset.json";
 import atriaBathroom from "@/assets/atria/bathroom.jpg.asset.json";
 import atriaBedroom from "@/assets/atria/bedroom.jpg.asset.json";
 import atriaBedroomStaircase from "@/assets/atria/bedroom-staircase.jpg.asset.json";
@@ -158,12 +158,12 @@ const vasilikiImages = [
 const dimitraImages = [dimitra014, dimitra077];
 
 const agapiImages = [
-  agapiBedroom.url,
-  agapiBedroom2.url,
-  agapiKitchen1.url,
-  agapiKitchen3.url,
-  agapiLivingRoom2.url,
-  agapiLivingRoomAtNight.url,
+  agapi6.url,
+  agapi5.url,
+  agapi7.url,
+  agapi12.url,
+  agapi10.url,
+  agapi1.url,
 ];
 
 const villaLilakImages = [
