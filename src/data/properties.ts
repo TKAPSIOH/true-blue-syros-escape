@@ -46,12 +46,7 @@ import dimitra012 from "@/assets/dimitra-new/012.jpg.asset.json";
 import dimitra015 from "@/assets/dimitra-new/015-2.jpg.asset.json";
 import dimitra018 from "@/assets/dimitra-new/018-2.jpg.asset.json";
 import dimitra073 from "@/assets/dimitra-new/073.jpg.asset.json";
-import agapi1 from "@/assets/agapi-new/009_1.jpg.asset.json";
-import agapi5 from "@/assets/agapi-new/009_5.jpg.asset.json";
-import agapi6 from "@/assets/agapi-new/009_6.jpg.asset.json";
-import agapi7 from "@/assets/agapi-new/009_7.jpg.asset.json";
-import agapi10 from "@/assets/agapi-new/009_10.jpg.asset.json";
-import agapi12 from "@/assets/agapi-new/009_12.jpg.asset.json";
+import agapi100 from "@/assets/agapi-new/100.jpg.asset.json";
 import atria1 from "@/assets/atria-new/010_1.jpg.asset.json";
 import atria2 from "@/assets/atria-new/010_2.jpg.asset.json";
 import atria3 from "@/assets/atria-new/010_3.jpg.asset.json";
@@ -167,14 +162,7 @@ const dimitraImages = [
   dimitra006.url,
 ];
 
-const agapiImages = [
-  agapi6.url,
-  agapi5.url,
-  agapi7.url,
-  agapi12.url,
-  agapi10.url,
-  agapi1.url,
-];
+const agapiImages = [agapi100.url];
 
 const villaLilakImages = [
   villaLilak001,
