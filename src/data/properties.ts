@@ -108,19 +108,17 @@ const alexandrosImages = [
   alexandros9.url,
   alexandros10.url,
 ];
-import lithiaBedroom from "@/assets/lithia/IMG_4107-Edit-site.jpg.asset.json";
-import lithiaKitchen from "@/assets/lithia/IMG_4128-Edit-site.jpg.asset.json";
-import lithiaLiving from "@/assets/lithia/IMG_4158-Edit-site.jpg.asset.json";
-import lithiaBathroom from "@/assets/lithia/IMG_4181-Edit-site.jpg.asset.json";
-import lithiaExterior from "@/assets/lithia/IMG_4303-Edit-site.jpg.asset.json";
-import lithiaTerrace from "@/assets/lithia/IMG_4316-Edit-site.jpg.asset.json";
+import lithia1 from "@/assets/lithia-new/004_1.jpg.asset.json";
+import lithia2 from "@/assets/lithia-new/004_2.jpg.asset.json";
+import lithia4 from "@/assets/lithia-new/004_4.jpg.asset.json";
+import lithia5 from "@/assets/lithia-new/004_5.jpg.asset.json";
+import lithia6 from "@/assets/lithia-new/004_6.jpg.asset.json";
 const lithiaImages = [
-  lithiaTerrace.url,
-  lithiaExterior.url,
-  lithiaBedroom.url,
-  lithiaLiving.url,
-  lithiaKitchen.url,
-  lithiaBathroom.url,
+  lithia6.url,
+  lithia5.url,
+  lithia1.url,
+  lithia2.url,
+  lithia4.url,
 ];
 
 import avra1 from "@/assets/avra-new/002_1.jpg.asset.json";
