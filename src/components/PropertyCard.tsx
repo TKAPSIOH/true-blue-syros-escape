@@ -80,27 +80,30 @@ export function PropertyCard({ property }: { property: Property }) {
 
           {/* Arrows */}
           <button
+            type="button"
             aria-label="Previous photo"
-            onClick={(e) => { e.stopPropagation(); emblaApi?.scrollPrev(); }}
-            className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollPrev(); }}
+            className="absolute left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
           >
             <ChevronLeft className="h-4 w-4" strokeWidth={1.75} />
           </button>
           <button
+            type="button"
             aria-label="Next photo"
-            onClick={(e) => { e.stopPropagation(); emblaApi?.scrollNext(); }}
-            className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollNext(); }}
+            className="absolute right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
           >
             <ChevronRight className="h-4 w-4" strokeWidth={1.75} />
           </button>
 
           {/* Dots */}
-          <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-1.5">
+          <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-1.5">
             {property.images.map((_, i) => (
               <button
                 key={i}
+                type="button"
                 aria-label={`Go to photo ${i + 1}`}
-                onClick={(e) => { e.stopPropagation(); emblaApi?.scrollTo(i); }}
+                onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollTo(i); }}
                 className={`h-1.5 rounded-full transition-all duration-300 ${
                   i === selected ? "w-5 bg-white" : "w-1.5 bg-white/60"
                 }`}
