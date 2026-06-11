@@ -65,7 +65,7 @@ export default function Index() {
                 <select
                   value={area}
                   onChange={(e) => setArea(e.target.value)}
-                  className="w-full bg-transparent text-sm text-foreground outline-none"
+                  className="w-full bg-transparent text-xs text-foreground outline-none sm:text-sm"
                 >
                   <option value="all">Any area</option>
                   {areas.map((a) => (
@@ -77,7 +77,7 @@ export default function Index() {
                 <select
                   value={capacity}
                   onChange={(e) => setCapacity(e.target.value)}
-                  className="w-full bg-transparent text-sm text-foreground outline-none"
+                  className="w-full bg-transparent text-xs text-foreground outline-none sm:text-sm"
                 >
                   <option value="any">Any number</option>
                   {[2, 3, 4, 5, 6, 8].map((n) => (
@@ -87,7 +87,7 @@ export default function Index() {
               </FilterField>
               <a
                 href="#stays"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary px-6 py-3 text-sm font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary px-4 py-2 text-xs font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90 sm:px-6 sm:py-3 sm:text-sm"
               >
                 Show {filtered.length} home{filtered.length === 1 ? "" : "s"}
               </a>
