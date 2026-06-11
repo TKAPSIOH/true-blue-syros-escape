@@ -40,113 +40,88 @@ import villaLilak015 from "@/assets/villa-lilak/015.jpg";
 import villaLilak018 from "@/assets/villa-lilak/018.jpg";
 import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
-import agapi100 from "@/assets/agapi-new/100.jpg.asset.json";
-import agapi5 from "@/assets/agapi-new/009_5.jpg.asset.json";
-import agapi6 from "@/assets/agapi-new/009_6.jpg.asset.json";
-import agapi7 from "@/assets/agapi-new/009_7.jpg.asset.json";
-import agapi10 from "@/assets/agapi-new/009_10.jpg.asset.json";
-import agapi12 from "@/assets/agapi-new/009_12.jpg.asset.json";
-import agapi13 from "@/assets/agapi-new/009_13.jpg.asset.json";
-import atria1 from "@/assets/atria-new/010_1.jpg.asset.json";
-import atria2 from "@/assets/atria-new/010_2.jpg.asset.json";
-import atria3 from "@/assets/atria-new/010_3.jpg.asset.json";
-import atria9 from "@/assets/atria-new/010_9.jpg.asset.json";
-import atria10 from "@/assets/atria-new/010_10.jpg.asset.json";
-import atria12 from "@/assets/atria-new/010_12.jpg.asset.json";
-import atria15 from "@/assets/atria-new/010_15.jpg.asset.json";
-const atriaImages = [
-  atria3.url,
-  atria10.url,
-  atria12.url,
-  atria9.url,
-  atria1.url,
-  atria2.url,
-  atria15.url,
-];
-import eliaView from "@/assets/elia-new/001_1.jpg.asset.json";
-import eliaBedroom from "@/assets/elia-new/001_2.jpg.asset.json";
-import eliaBathroom from "@/assets/elia-new/001_3.jpg.asset.json";
-import eliaLiving from "@/assets/elia-new/001_4.jpg.asset.json";
-import eliaTerrace from "@/assets/elia-new/006_2.jpg.asset.json";
-import eliaNight from "@/assets/elia-new/007_7.jpg.asset.json";
-import elia24 from "@/assets/elia-new/003_24.jpg.asset.json";
-import elia25 from "@/assets/elia-new/003_25.jpg.asset.json";
-const eliaImages = [eliaView.url, eliaBedroom.url, eliaBathroom.url, eliaLiving.url, eliaTerrace.url, eliaNight.url, elia24.url, elia25.url];
-import astivi4 from "@/assets/astivi-new/011_4.jpg.asset.json";
-import astivi6 from "@/assets/astivi-new/011_6.jpg.asset.json";
-import astivi9 from "@/assets/astivi-new/011_9.jpg.asset.json";
-import astivi10 from "@/assets/astivi-new/011_10.jpg.asset.json";
-import astivi18 from "@/assets/astivi-new/011_18.jpg.asset.json";
-import astivi19 from "@/assets/astivi-new/011_19.jpg.asset.json";
-import astivi26 from "@/assets/astivi-new/011_26.jpg.asset.json";
-import astivi35 from "@/assets/astivi-new/011_35.jpg.asset.json";
-import astivi43 from "@/assets/astivi-new/011_43.jpg.asset.json";
-import astivi45 from "@/assets/astivi-new/011_45.jpg.asset.json";
+import agapi100 from "@/assets/agapi-new/100.jpg";
+import agapi5 from "@/assets/agapi-new/009_5.jpg";
+import agapi6 from "@/assets/agapi-new/009_6.jpg";
+import agapi7 from "@/assets/agapi-new/009_7.jpg";
+import agapi10 from "@/assets/agapi-new/009_10.jpg";
+import agapi12 from "@/assets/agapi-new/009_12.jpg";
+import agapi13 from "@/assets/agapi-new/009_13.jpg";
+import atria1 from "@/assets/atria-new/010_1.jpg";
+import atria2 from "@/assets/atria-new/010_2.jpg";
+import atria3 from "@/assets/atria-new/010_3.jpg";
+import atria9 from "@/assets/atria-new/010_9.jpg";
+import atria10 from "@/assets/atria-new/010_10.jpg";
+import atria12 from "@/assets/atria-new/010_12.jpg";
+import atria15 from "@/assets/atria-new/010_15.jpg";
+const atriaImages = [atria3, atria10, atria12, atria9, atria1, atria2, atria15];
+import eliaView from "@/assets/elia-new/001_1.jpg";
+import eliaBedroom from "@/assets/elia-new/001_2.jpg";
+import eliaBathroom from "@/assets/elia-new/001_3.jpg";
+import eliaLiving from "@/assets/elia-new/001_4.jpg";
+import eliaTerrace from "@/assets/elia-new/006_2.jpg";
+import eliaNight from "@/assets/elia-new/007_7.jpg";
+import elia24 from "@/assets/elia-new/003_24.jpg";
+import elia25 from "@/assets/elia-new/003_25.jpg";
+const eliaImages = [eliaView, eliaBedroom, eliaBathroom, eliaLiving, eliaTerrace, eliaNight, elia24, elia25];
+import astivi4 from "@/assets/astivi-new/011_4.jpg";
+import astivi6 from "@/assets/astivi-new/011_6.jpg";
+import astivi9 from "@/assets/astivi-new/011_9.jpg";
+import astivi10 from "@/assets/astivi-new/011_10.jpg";
+import astivi18 from "@/assets/astivi-new/011_18.jpg";
+import astivi19 from "@/assets/astivi-new/011_19.jpg";
+import astivi26 from "@/assets/astivi-new/011_26.jpg";
+import astivi35 from "@/assets/astivi-new/011_35.jpg";
+import astivi43 from "@/assets/astivi-new/011_43.jpg";
+import astivi45 from "@/assets/astivi-new/011_45.jpg";
 
 const astiviImages = [
-  astivi43.url,
-  astivi6.url,
-  astivi45.url,
-  astivi10.url,
-  astivi18.url,
-  astivi9.url,
-  astivi19.url,
-  astivi35.url,
-  astivi26.url,
-  astivi4.url,
+  astivi43,
+  astivi6,
+  astivi45,
+  astivi10,
+  astivi18,
+  astivi9,
+  astivi19,
+  astivi35,
+  astivi26,
+  astivi4,
 ];
 
-import alexandros3 from "@/assets/alexandros-new/012_3.jpg.asset.json";
-import alexandros5 from "@/assets/alexandros-new/012_5.jpg.asset.json";
-import alexandros6n from "@/assets/alexandros-new/012_6.jpg.asset.json";
-import alexandros9 from "@/assets/alexandros-new/012_9.jpg.asset.json";
-import alexandros10 from "@/assets/alexandros-new/012_10.jpg.asset.json";
-import alexandros11 from "@/assets/alexandros-new/012_11.jpg.asset.json";
-import alexandros13 from "@/assets/alexandros-new/012_13.jpg.asset.json";
+import alexandros3 from "@/assets/alexandros-new/012_3.jpg";
+import alexandros5 from "@/assets/alexandros-new/012_5.jpg";
+import alexandros6n from "@/assets/alexandros-new/012_6.jpg";
+import alexandros9 from "@/assets/alexandros-new/012_9.jpg";
+import alexandros10 from "@/assets/alexandros-new/012_10.jpg";
+import alexandros11 from "@/assets/alexandros-new/012_11.jpg";
+import alexandros13 from "@/assets/alexandros-new/012_13.jpg";
 const alexandrosImages = [
-  alexandros13.url,
-  alexandros3.url,
-  alexandros5.url,
-  alexandros6n.url,
-  alexandros11.url,
-  alexandros9.url,
-  alexandros10.url,
+  alexandros13,
+  alexandros3,
+  alexandros5,
+  alexandros6n,
+  alexandros11,
+  alexandros9,
+  alexandros10,
 ];
-import lithia1 from "@/assets/lithia-new/004_1.jpg.asset.json";
-import lithia2 from "@/assets/lithia-new/004_2.jpg.asset.json";
-import lithia4 from "@/assets/lithia-new/004_4.jpg.asset.json";
-import lithia5 from "@/assets/lithia-new/004_5.jpg.asset.json";
-import lithia6 from "@/assets/lithia-new/004_6.jpg.asset.json";
-import lithia26 from "@/assets/lithia-new/003_26.jpg.asset.json";
-import lithia30 from "@/assets/lithia-new/003_30.jpg.asset.json";
-const lithiaImages = [
-  lithia6.url,
-  lithia5.url,
-  lithia1.url,
-  lithia2.url,
-  lithia4.url,
-  lithia26.url,
-  lithia30.url,
-];
+import lithia1 from "@/assets/lithia-new/004_1.jpg";
+import lithia2 from "@/assets/lithia-new/004_2.jpg";
+import lithia4 from "@/assets/lithia-new/004_4.jpg";
+import lithia5 from "@/assets/lithia-new/004_5.jpg";
+import lithia6 from "@/assets/lithia-new/004_6.jpg";
+import lithia26 from "@/assets/lithia-new/003_26.jpg";
+import lithia30 from "@/assets/lithia-new/003_30.jpg";
+const lithiaImages = [lithia6, lithia5, lithia1, lithia2, lithia4, lithia26, lithia30];
 
-import avra1 from "@/assets/avra-new/002_1.jpg.asset.json";
-import avra2 from "@/assets/avra-new/002_2.jpg.asset.json";
-import avra3 from "@/assets/avra-new/002_3.jpg.asset.json";
-import avra5 from "@/assets/avra-new/002_5.jpg.asset.json";
-import avra6 from "@/assets/avra-new/002_6.jpg.asset.json";
-import avra9 from "@/assets/avra-new/002_9.jpg.asset.json";
-import avra20 from "@/assets/avra-new/003_20.jpg.asset.json";
-import avra24 from "@/assets/avra-new/003_24.jpg.asset.json";
-const avraImages = [
-  avra1.url,
-  avra6.url,
-  avra3.url,
-  avra2.url,
-  avra5.url,
-  avra9.url,
-  avra20.url,
-  avra24.url,
-];
+import avra1 from "@/assets/avra-new/002_1.jpg";
+import avra2 from "@/assets/avra-new/002_2.jpg";
+import avra3 from "@/assets/avra-new/002_3.jpg";
+import avra5 from "@/assets/avra-new/002_5.jpg";
+import avra6 from "@/assets/avra-new/002_6.jpg";
+import avra9 from "@/assets/avra-new/002_9.jpg";
+import avra20 from "@/assets/avra-new/003_20.jpg";
+import avra24 from "@/assets/avra-new/003_24.jpg";
+const avraImages = [avra1, avra6, avra3, avra2, avra5, avra9, avra20, avra24];
 
 import dimitra3 from "@/assets/dimitra-new/3.jpg.asset.json";
 const dimitraImages = [dimitra3.url];
@@ -170,7 +145,7 @@ const vasilikiImages = [
 ];
 
 
-const agapiImages = [agapi100.url, agapi6.url, agapi5.url, agapi7.url, agapi13.url, agapi12.url, agapi10.url];
+const agapiImages = [agapi100, agapi6, agapi5, agapi7, agapi13, agapi12, agapi10];
 
 const villaLilakImages = [
   villaLilak001,
