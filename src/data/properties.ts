@@ -168,7 +168,7 @@ const dimitraImages = [
   dimitra006.url,
 ];
 
-const agapiImages = [agapi100.url];
+const agapiImages = [agapi100.url, agapi6.url, agapi5.url, agapi7.url, agapi13.url, agapi12.url, agapi10.url];
 
 const villaLilakImages = [
   villaLilak001,
