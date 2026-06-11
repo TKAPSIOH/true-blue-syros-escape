@@ -40,12 +40,12 @@ import villaLilak015 from "@/assets/villa-lilak/015.jpg";
 import villaLilak018 from "@/assets/villa-lilak/018.jpg";
 import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
-import dimitra003 from "@/assets/dimitra-new/003.jpg";
-import dimitra006 from "@/assets/dimitra-new/006.jpg";
-import dimitra012 from "@/assets/dimitra-new/012.jpg";
-import dimitra015 from "@/assets/dimitra-new/015-2.jpg";
-import dimitra018 from "@/assets/dimitra-new/018-2.jpg";
-import dimitra073 from "@/assets/dimitra-new/073.jpg";
+import dimitra003 from "@/assets/dimitra-new/003.jpg.asset.json";
+import dimitra006 from "@/assets/dimitra-new/006.jpg.asset.json";
+import dimitra012 from "@/assets/dimitra-new/012.jpg.asset.json";
+import dimitra015 from "@/assets/dimitra-new/015-2.jpg.asset.json";
+import dimitra018 from "@/assets/dimitra-new/018-2.jpg.asset.json";
+import dimitra073 from "@/assets/dimitra-new/073.jpg.asset.json";
 import agapi100 from "@/assets/agapi-new/100.jpg.asset.json";
 import agapi5 from "@/assets/agapi-new/009_5.jpg.asset.json";
 import agapi6 from "@/assets/agapi-new/009_6.jpg.asset.json";
@@ -60,7 +60,15 @@ import atria9 from "@/assets/atria-new/010_9.jpg.asset.json";
 import atria10 from "@/assets/atria-new/010_10.jpg.asset.json";
 import atria12 from "@/assets/atria-new/010_12.jpg.asset.json";
 import atria15 from "@/assets/atria-new/010_15.jpg.asset.json";
-const atriaImages = [atria3.url, atria10.url, atria12.url, atria9.url, atria1.url, atria2.url, atria15.url];
+const atriaImages = [
+  atria3.url,
+  atria10.url,
+  atria12.url,
+  atria9.url,
+  atria1.url,
+  atria2.url,
+  atria15.url,
+];
 import eliaView from "@/assets/elia-new/001_1.jpg.asset.json";
 import eliaBedroom from "@/assets/elia-new/001_2.jpg.asset.json";
 import eliaBathroom from "@/assets/elia-new/001_3.jpg.asset.json";
@@ -69,16 +77,7 @@ import eliaTerrace from "@/assets/elia-new/006_2.jpg.asset.json";
 import eliaNight from "@/assets/elia-new/007_7.jpg.asset.json";
 import elia24 from "@/assets/elia-new/003_24.jpg.asset.json";
 import elia25 from "@/assets/elia-new/003_25.jpg.asset.json";
-const eliaImages = [
-  eliaView.url,
-  eliaBedroom.url,
-  eliaBathroom.url,
-  eliaLiving.url,
-  eliaTerrace.url,
-  eliaNight.url,
-  elia24.url,
-  elia25.url,
-];
+const eliaImages = [eliaView.url, eliaBedroom.url, eliaBathroom.url, eliaLiving.url, eliaTerrace.url, eliaNight.url, elia24.url, elia25.url];
 import astivi4 from "@/assets/astivi-new/011_4.jpg.asset.json";
 import astivi6 from "@/assets/astivi-new/011_6.jpg.asset.json";
 import astivi9 from "@/assets/astivi-new/011_9.jpg.asset.json";
@@ -126,7 +125,15 @@ import lithia5 from "@/assets/lithia-new/004_5.jpg.asset.json";
 import lithia6 from "@/assets/lithia-new/004_6.jpg.asset.json";
 import lithia26 from "@/assets/lithia-new/003_26.jpg.asset.json";
 import lithia30 from "@/assets/lithia-new/003_30.jpg.asset.json";
-const lithiaImages = [lithia6.url, lithia5.url, lithia1.url, lithia2.url, lithia4.url, lithia26.url, lithia30.url];
+const lithiaImages = [
+  lithia6.url,
+  lithia5.url,
+  lithia1.url,
+  lithia2.url,
+  lithia4.url,
+  lithia26.url,
+  lithia30.url,
+];
 
 import avra1 from "@/assets/avra-new/002_1.jpg.asset.json";
 import avra2 from "@/assets/avra-new/002_2.jpg.asset.json";
@@ -136,7 +143,16 @@ import avra6 from "@/assets/avra-new/002_6.jpg.asset.json";
 import avra9 from "@/assets/avra-new/002_9.jpg.asset.json";
 import avra20 from "@/assets/avra-new/003_20.jpg.asset.json";
 import avra24 from "@/assets/avra-new/003_24.jpg.asset.json";
-const avraImages = [avra1.url, avra6.url, avra3.url, avra2.url, avra5.url, avra9.url, avra20.url, avra24.url];
+const avraImages = [
+  avra1.url,
+  avra6.url,
+  avra3.url,
+  avra2.url,
+  avra5.url,
+  avra9.url,
+  avra20.url,
+  avra24.url,
+];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
@@ -146,13 +162,35 @@ import vasiliki057 from "@/assets/vasiliki/057.jpg";
 import vasiliki058 from "@/assets/vasiliki/058.jpg";
 import vasiliki062 from "@/assets/vasiliki/062.jpg";
 
-const vasilikiImages = [vasiliki054, vasiliki055, vasiliki052, vasiliki051, vasiliki062, vasiliki057, vasiliki058];
+const vasilikiImages = [
+  vasiliki054,
+  vasiliki055,
+  vasiliki052,
+  vasiliki051,
+  vasiliki062,
+  vasiliki057,
+  vasiliki058,
+];
 
-const dimitraImages = [dimitra073.url, dimitra012.url, dimitra018.url, dimitra015.url, dimitra003.url, dimitra006.url];
+const dimitraImages = [
+  dimitra073.url,
+  dimitra012.url,
+  dimitra018.url,
+  dimitra015.url,
+  dimitra003.url,
+  dimitra006.url,
+];
 
 const agapiImages = [agapi100.url, agapi6.url, agapi5.url, agapi7.url, agapi13.url, agapi12.url, agapi10.url];
 
-const villaLilakImages = [villaLilak001, villaLilak044, villaLilak015, villaLilak018, villaLilak020, villaLilak034];
+const villaLilakImages = [
+  villaLilak001,
+  villaLilak044,
+  villaLilak015,
+  villaLilak018,
+  villaLilak020,
+  villaLilak034,
+];
 
 const alexandraImages = [
   alexandra027,
@@ -181,7 +219,8 @@ const aplotisImages = [
 ];
 
 // Unsplash photos — replace with real assets later.
-const img = (id: string, w = 1200) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
+const img = (id: string, w = 1200) =>
+  `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=80`;
 
 export const properties: Property[] = [
   {
@@ -195,8 +234,7 @@ export const properties: Property[] = [
     bathrooms: 2,
     amenities: { wifi: true, ac: true, parking: false },
     bookingUrl: "https://www.airbnb.com/",
-    description:
-      "A calm, light-filled home just steps from Ermoupoli town center. White Suites blend Cycladic simplicity with modern comfort. ",
+    description: "A calm, light-filled home just steps from Ermoupoli town center. White Suites blend Cycladic simplicity with modern comfort. ",
     images: alexandraImages,
     rates: { june: 170, july: 250, august: 320 },
   },
@@ -354,6 +392,7 @@ export const properties: Property[] = [
     images: lithiaImages,
     rates: { june: 140, july: 180, august: 220 },
   },
+
 ];
 
 export const areas = Array.from(new Set(properties.map((p) => p.area))).sort();
