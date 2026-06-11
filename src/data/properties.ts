@@ -123,8 +123,13 @@ import avra20 from "@/assets/avra-new/003_20.jpg";
 import avra24 from "@/assets/avra-new/003_24.jpg";
 const avraImages = [avra1, avra6, avra3, avra2, avra5, avra9, avra20, avra24];
 
-import dimitra3 from "@/assets/dimitra-new/3.jpg.asset.json";
-const dimitraImages = [dimitra3.url];
+import dimitra008 from "@/assets/dimitra-new/008.jpg";
+import dimitra010 from "@/assets/dimitra-new/010.jpg";
+import dimitra015 from "@/assets/dimitra-new/015.jpg";
+import dimitra018 from "@/assets/dimitra-new/018.jpg";
+import dimitra073 from "@/assets/dimitra-new/073.jpg";
+import dimitra077 from "@/assets/dimitra-new/077.jpg";
+const dimitraImages = [dimitra073, dimitra015, dimitra010, dimitra008, dimitra018, dimitra077];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
