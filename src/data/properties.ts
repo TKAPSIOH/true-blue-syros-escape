@@ -141,6 +141,8 @@ import avra3 from "@/assets/avra-new/002_3.jpg.asset.json";
 import avra5 from "@/assets/avra-new/002_5.jpg.asset.json";
 import avra6 from "@/assets/avra-new/002_6.jpg.asset.json";
 import avra9 from "@/assets/avra-new/002_9.jpg.asset.json";
+import avra20 from "@/assets/avra-new/003_20.jpg.asset.json";
+import avra24 from "@/assets/avra-new/003_24.jpg.asset.json";
 const avraImages = [
   avra1.url,
   avra6.url,
@@ -148,6 +150,8 @@ const avraImages = [
   avra2.url,
   avra5.url,
   avra9.url,
+  avra20.url,
+  avra24.url,
 ];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
