@@ -164,8 +164,8 @@ function FilterField({
   children: React.ReactNode;
 }) {
   return (
-    <label className="flex flex-col gap-0.5 rounded-lg px-4 py-2 transition hover:bg-secondary/60">
-      <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+    <label className="flex flex-col gap-0.5 rounded-lg px-3 py-1.5 transition hover:bg-secondary/60 sm:px-4 sm:py-2">
+      <span className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground sm:text-[10px]">
         {label}
       </span>
       {children}
