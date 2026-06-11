@@ -148,26 +148,8 @@ const avraImages = [
   avra24.url,
 ];
 
-import dimitra003 from "@/assets/dimitra-new/003.jpg.asset.json";
-import dimitra006 from "@/assets/dimitra-new/006.jpg.asset.json";
-import dimitra008 from "@/assets/dimitra-new/008.jpg.asset.json";
-import dimitra011 from "@/assets/dimitra-new/011.jpg.asset.json";
-import dimitra014 from "@/assets/dimitra-new/014-2.jpg.asset.json";
-import dimitra017 from "@/assets/dimitra-new/017.jpg.asset.json";
-import dimitra018 from "@/assets/dimitra-new/018-3.jpg.asset.json";
-import dimitra072 from "@/assets/dimitra-new/072.jpg.asset.json";
-import dimitra077 from "@/assets/dimitra-new/077-2.jpg.asset.json";
-const dimitraImages = [
-  dimitra072.url,
-  dimitra014.url,
-  dimitra003.url,
-  dimitra017.url,
-  dimitra011.url,
-  dimitra018.url,
-  dimitra006.url,
-  dimitra008.url,
-  dimitra077.url,
-];
+import dimitra3 from "@/assets/dimitra-new/3.jpg.asset.json";
+const dimitraImages = [dimitra3.url];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
