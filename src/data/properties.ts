@@ -172,14 +172,6 @@ const vasilikiImages = [
   vasiliki058,
 ];
 
-const dimitraImages = [
-  dimitra073.url,
-  dimitra012.url,
-  dimitra018.url,
-  dimitra015.url,
-  dimitra003.url,
-  dimitra006.url,
-];
 
 const agapiImages = [agapi100.url, agapi6.url, agapi5.url, agapi7.url, agapi13.url, agapi12.url, agapi10.url];
 
