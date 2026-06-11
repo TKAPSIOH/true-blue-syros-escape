@@ -386,6 +386,20 @@ export const properties: Property[] = [
     rates: { june: 140, july: 180, august: 220 },
   },
 
+  {
+    id: "dimitra-suite-white-suites",
+    name: "Dimitra Suite - White Suites",
+    area: "Ermoupoli",
+    street: "Kapodistriou 24",
+    maxGuests: 4,
+    sizeSqm: 70,
+    bedrooms: 2,
+    bathrooms: 2,
+    amenities: { wifi: true, ac: true, parking: false },
+    bookingUrl: "https://www.airbnb.com/",
+    images: dimitraImages,
+    rates: { june: 170, july: 230, august: 290 },
+  },
 ];
 
 export const areas = Array.from(new Set(properties.map((p) => p.area))).sort();
