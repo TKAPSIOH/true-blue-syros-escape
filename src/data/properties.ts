@@ -40,7 +40,6 @@ import villaLilak015 from "@/assets/villa-lilak/015.jpg";
 import villaLilak018 from "@/assets/villa-lilak/018.jpg";
 import villaLilak020 from "@/assets/villa-lilak/020.jpg";
 import villaLilak034 from "@/assets/villa-lilak/034.jpg";
-import dimitra003 from "@/assets/dimitra-new/003.jpg";
 import dimitra006 from "@/assets/dimitra-new/006.jpg";
 import dimitra012 from "@/assets/dimitra-new/012.jpg";
 import dimitra015 from "@/assets/dimitra-new/015-2.jpg";
