@@ -57,72 +57,71 @@ export function PropertyCard({ property }: { property: Property }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border/70 bg-card transition-all duration-500 hover:border-accent/40 hover:shadow-[0_20px_60px_-30px_oklch(0.5_0.16_235/0.35)]">
-      <Link to={`/listing/${property.id}`}>
-        {/* Image slider */}
-        <div className="relative aspect-[4/3] overflow-hidden bg-muted">
-          <div className="h-full overflow-hidden" ref={emblaRef}>
-            <div className="flex h-full">
-              {property.images.map((src, i) => (
-                <div
-                  key={i}
-                  className="relative h-full min-w-0 flex-[0_0_100%]"
-                >
-                  <img
-                    src={src}
-                    alt={`${property.name} — photo ${i + 1}`}
-                    loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.03]"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Arrows */}
-          <button
-            type="button"
-            aria-label="Previous photo"
-            onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollPrev(); }}
-            className="absolute left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
-          >
-            <ChevronLeft className="h-4 w-4" strokeWidth={1.75} />
-          </button>
-          <button
-            type="button"
-            aria-label="Next photo"
-            onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollNext(); }}
-            className="absolute right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
-          >
-            <ChevronRight className="h-4 w-4" strokeWidth={1.75} />
-          </button>
-
-          {/* Dots */}
-          <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-1.5">
-            {property.images.map((_, i) => (
-              <button
+      {/* Image slider */}
+      <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+        <div className="h-full overflow-hidden" ref={emblaRef}>
+          <div className="flex h-full">
+            {property.images.map((src, i) => (
+              <Link
                 key={i}
-                type="button"
-                aria-label={`Go to photo ${i + 1}`}
-                onClick={(e) => { e.preventDefault(); e.stopPropagation(); emblaApi?.scrollTo(i); }}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  i === selected ? "w-5 bg-white" : "w-1.5 bg-white/60"
-                }`}
-              />
+                to={`/listing/${property.id}`}
+                className="relative block h-full min-w-0 flex-[0_0_100%]"
+              >
+                <img
+                  src={src}
+                  alt={`${property.name} — photo ${i + 1}`}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.03]"
+                />
+              </Link>
             ))}
           </div>
         </div>
 
-        {/* Details */}
-        <div className="flex flex-1 flex-col p-6 pb-0">
-          <header>
-            <h3 className="font-serif text-2xl leading-tight text-foreground">
-              {property.name}
-            </h3>
-            <p className="mt-1 text-sm text-muted-foreground">
-              {property.area} · {property.street}
-            </p>
-          </header>
+        {/* Arrows */}
+        <button
+          type="button"
+          aria-label="Previous photo"
+          onClick={() => emblaApi?.scrollPrev()}
+          className="absolute left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
+        >
+          <ChevronLeft className="h-4 w-4" strokeWidth={1.75} />
+        </button>
+        <button
+          type="button"
+          aria-label="Next photo"
+          onClick={() => emblaApi?.scrollNext()}
+          className="absolute right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/85 p-2 text-foreground opacity-0 backdrop-blur-sm transition-all duration-300 hover:bg-background group-hover:opacity-100 focus-visible:opacity-100"
+        >
+          <ChevronRight className="h-4 w-4" strokeWidth={1.75} />
+        </button>
+
+        {/* Dots */}
+        <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-1.5">
+          {property.images.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              aria-label={`Go to photo ${i + 1}`}
+              onClick={() => emblaApi?.scrollTo(i)}
+              className={`h-1.5 rounded-full transition-all duration-300 ${
+                i === selected ? "w-5 bg-white" : "w-1.5 bg-white/60"
+              }`}
+            />
+          ))}
         </div>
+      </div>
+
+      {/* Details */}
+      <Link to={`/listing/${property.id}`} className="flex flex-1 flex-col p-6 pb-0">
+        <header>
+          <h3 className="font-serif text-2xl leading-tight text-foreground">
+            {property.name}
+          </h3>
+          <p className="mt-1 text-sm text-muted-foreground">
+            {property.area} · {property.street}
+          </p>
+        </header>
       </Link>
 
       <div className="flex flex-1 flex-col px-6 pb-6">
