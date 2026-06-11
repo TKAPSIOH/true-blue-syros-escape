@@ -121,12 +121,16 @@ import lithia2 from "@/assets/lithia-new/004_2.jpg.asset.json";
 import lithia4 from "@/assets/lithia-new/004_4.jpg.asset.json";
 import lithia5 from "@/assets/lithia-new/004_5.jpg.asset.json";
 import lithia6 from "@/assets/lithia-new/004_6.jpg.asset.json";
+import lithia26 from "@/assets/lithia-new/003_26.jpg.asset.json";
+import lithia30 from "@/assets/lithia-new/003_30.jpg.asset.json";
 const lithiaImages = [
   lithia6.url,
   lithia5.url,
   lithia1.url,
   lithia2.url,
   lithia4.url,
+  lithia26.url,
+  lithia30.url,
 ];
 
 import avra1 from "@/assets/avra-new/002_1.jpg.asset.json";
