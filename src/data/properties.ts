@@ -71,8 +71,11 @@ const atriaImages = [
 ];
 import eliaView from "@/assets/elia-new/001_1.jpg.asset.json";
 import eliaBedroom from "@/assets/elia-new/001_2.jpg.asset.json";
+import eliaBathroom from "@/assets/elia-new/001_3.jpg.asset.json";
 import eliaLiving from "@/assets/elia-new/001_4.jpg.asset.json";
-const eliaImages = [eliaView.url, eliaBedroom.url, eliaLiving.url];
+import eliaTerrace from "@/assets/elia-new/006_2.jpg.asset.json";
+import eliaNight from "@/assets/elia-new/007_7.jpg.asset.json";
+const eliaImages = [eliaView.url, eliaBedroom.url, eliaBathroom.url, eliaLiving.url, eliaTerrace.url, eliaNight.url];
 import astivi4 from "@/assets/astivi-new/011_4.jpg.asset.json";
 import astivi6 from "@/assets/astivi-new/011_6.jpg.asset.json";
 import astivi9 from "@/assets/astivi-new/011_9.jpg.asset.json";
