@@ -58,14 +58,14 @@ export default function Index() {
         </div>
 
         {/* Filter bar */}
-        <div className="absolute inset-x-0 bottom-6 z-20 px-6 sm:px-10">
-          <div className="mx-auto max-w-4xl rounded-xl border border-border/70 bg-card/95 p-3 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] backdrop-blur-md sm:p-2">
+        <div className="absolute inset-x-0 bottom-6 z-20 px-4 sm:px-10">
+          <div className="mx-auto max-w-4xl rounded-xl border border-border/70 bg-card/95 p-2 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] backdrop-blur-md sm:p-3">
             <div className="grid grid-cols-1 items-stretch gap-2 sm:grid-cols-[1fr_1fr_auto]">
               <FilterField label="Area">
                 <select
                   value={area}
                   onChange={(e) => setArea(e.target.value)}
-                  className="w-full bg-transparent text-sm text-foreground outline-none"
+                  className="w-full bg-transparent text-xs text-foreground outline-none sm:text-sm"
                 >
                   <option value="all">Any area</option>
                   {areas.map((a) => (
@@ -77,7 +77,7 @@ export default function Index() {
                 <select
                   value={capacity}
                   onChange={(e) => setCapacity(e.target.value)}
-                  className="w-full bg-transparent text-sm text-foreground outline-none"
+                  className="w-full bg-transparent text-xs text-foreground outline-none sm:text-sm"
                 >
                   <option value="any">Any number</option>
                   {[2, 3, 4, 5, 6, 8].map((n) => (
@@ -87,7 +87,7 @@ export default function Index() {
               </FilterField>
               <a
                 href="#stays"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary px-6 py-3 text-sm font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary px-4 py-2 text-xs font-medium tracking-wide text-primary-foreground transition hover:bg-primary/90 sm:px-6 sm:py-3 sm:text-sm"
               >
                 Show {filtered.length} home{filtered.length === 1 ? "" : "s"}
               </a>
@@ -164,8 +164,8 @@ function FilterField({
   children: React.ReactNode;
 }) {
   return (
-    <label className="flex flex-col gap-0.5 rounded-lg px-4 py-2 transition hover:bg-secondary/60">
-      <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+    <label className="flex flex-col gap-0.5 rounded-lg px-3 py-1.5 transition hover:bg-secondary/60 sm:px-4 sm:py-2">
+      <span className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground sm:text-[10px]">
         {label}
       </span>
       {children}
