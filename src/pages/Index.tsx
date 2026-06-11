@@ -58,8 +58,8 @@ export default function Index() {
         </div>
 
         {/* Filter bar */}
-        <div className="absolute inset-x-0 bottom-6 z-20 px-6 sm:px-10">
-          <div className="mx-auto max-w-4xl rounded-xl border border-border/70 bg-card/95 p-3 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] backdrop-blur-md sm:p-2">
+        <div className="absolute inset-x-0 bottom-6 z-20 px-4 sm:px-10">
+          <div className="mx-auto max-w-4xl rounded-xl border border-border/70 bg-card/95 p-2 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] backdrop-blur-md sm:p-3">
             <div className="grid grid-cols-1 items-stretch gap-2 sm:grid-cols-[1fr_1fr_auto]">
               <FilterField label="Area">
                 <select
