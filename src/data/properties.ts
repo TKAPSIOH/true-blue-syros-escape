@@ -148,8 +148,8 @@ const avraImages = [
   avra24.url,
 ];
 
-import dimitra010 from "@/assets/dimitra-new/010-2.jpg.asset.json";
-const dimitraImages = [dimitra010.url];
+import dimitra3 from "@/assets/dimitra-new/3.jpg.asset.json";
+const dimitraImages = [dimitra3.url];
 
 import vasiliki051 from "@/assets/vasiliki/051.jpg";
 import vasiliki052 from "@/assets/vasiliki/052.jpg";
